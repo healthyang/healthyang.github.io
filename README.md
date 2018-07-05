@@ -1,40 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to Akla.top
 
-You can use the [editor on GitHub](https://github.com/healthyang/healthyang.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Building...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### mysql
 
-### Markdown
+# mysql安装方法
+[https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Jekyll
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/healthyang/healthyang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[repository settings](https://github.com/healthyang/healthyang.github.io/settings). 
 
 ### django
 There is django.
 
-### Support or Contact
+### linux
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### 新装 ubuntu
+
+    sudo passwd
+    sudo apt-get install openssh-server
+#### pip 离线安装方法
+
+**1. 在联网的机器上下载打包安装包：**
+
+
+    pip list #查看安装的包  
+    pip freeze > requirements.txt 
+    pip download 
+
+**2. 将whl格式的安装包** *requirements.txt* **拷到离线机器上**
+
+
+    pip install --no-index --find-links=[whl包所在文件夹] -r requirements.txt
