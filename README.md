@@ -4,7 +4,7 @@ Building...
 
 ### mysql
 
-# mysql安装方法
+#### mysql安装方法
 [https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
 
 ### Jekyll
@@ -20,6 +20,7 @@ There is django.
 
     sudo passwd
     sudo apt-get install openssh-server
+    
 #### pip 离线安装方法
 
 **1. 在联网的机器上下载打包安装包：**
