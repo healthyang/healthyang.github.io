@@ -1,18 +1,14 @@
-## Welcome to Akla.top
+### 2018 NOI
 
 加油，YZL棒棒!
 
-### mysql
-
-#### mysql安装方法
-[https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
-
 ### Jekyll
 
-[repository settings](https://github.com/healthyang/healthyang.github.io/settings). 
+Building...
 
 ### django
-There is django.
+
+Building...
 
 ### linux
 
@@ -34,3 +30,8 @@ There is django.
 
 
     pip install --no-index --find-links=[whl包所在文件夹] -r requirements.txt
+
+### mysql
+
+#### mysql安装方法
+[https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
