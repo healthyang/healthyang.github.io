@@ -1,16 +1,9 @@
-### 2018 NOI
-
-加油，YZL棒棒!
-
-### Jekyll
-
-Building...
-
-### django
-
-Building...
-
-### linux
+---
+layout: post
+title:  "新装ubuntu系统"
+date:   2018-07-30 16:16:16 +0800
+categories: linux 
+---
 
 #### 新装 ubuntu
 
@@ -30,8 +23,6 @@ Building...
 
 
     pip install --no-index --find-links=[whl包所在文件夹] -r requirements.txt
-
-### mysql
 
 #### mysql安装方法
 [https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
