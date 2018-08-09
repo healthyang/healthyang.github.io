@@ -5,7 +5,7 @@ date:   2018-07-30 16:16:16 +0800
 categories: linux
 ---
 
-#### 新装 ubuntu
+#### 新装 ubuntu时设置root密码并安装SSH
 
     sudo passwd
     sudo apt-get install openssh-server
