@@ -19,8 +19,9 @@ date: "2018-08-09 16:27:40 +0800"
 iptables -F
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE //在nat规则表中添加一个规则，该规则将所有外发的数据的源伪装成eth0接口的ip地址
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
+注：在nat规则表中添加一个规则，该规则将所有外发的数据的源伪装成eth0接口的ip地址。
 
 #### 参考链接：
 
