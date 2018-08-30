@@ -1,5 +1,4 @@
----
-layout: post
+--- layout: post
 title: "本地项目上传到github"
 date: "2018-08-24 16:10:02 +0800"
 ---
