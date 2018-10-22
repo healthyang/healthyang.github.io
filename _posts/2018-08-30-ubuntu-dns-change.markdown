@@ -4,7 +4,7 @@ title: "ubuntu修改增加dns"
 date: "2018-08-30 13:39:27 +0800"
 ---
 
-/etc/resolv.conf 手工修改无效，应增加或修改 /etc/resolvconf/resolv.conf.d/tail文件，例如：
+/etc/resolv.conf 手工修改无效，test应增加或修改 /etc/resolvconf/resolv.conf.d/tail文件，例如：
 
     nameserver 8.8.8.8
 
