@@ -1,0 +1,41 @@
+---
+layout: post
+title: "使用gunicorn部署DJANGO"
+date: "2018-12-08 21:45:29 +0800"
+---
+####安装gunicorn
+
+在虚拟环境中安装：
+
+    pip install gunicorn
+
+gunicorn的官方网站：
+http://www.gunicorn.org
+
+用gunicorn启动DJANGO服务器：
+
+    gunicorn --bind 0.0.0.0:8000 mysite.wsgi:application
+
+####自定义系统启动服务
+在/usr/lib/systemd/system/目录下创建mysite.service文件：
+
+```
+[Unit]
+After=syslog.target network.target remote-fs.target nss-lookup.target
+[Service]
+# 你的用户
+User=yj
+# 你的目录
+WorkingDirectory=/home/yj/td
+# gunicorn启动命令
+ExecStart=/home/yj/.virtualenvs/django/bin/gunicorn --bind 0.0.0.0:8000 mysite.wsgi:application
+Restart = on-failure
+[Install]
+WantedBy=multi-user.target
+```
+用systemctl控制服务：
+
+    systemctl start mysite
+    systemctl status mysite.service
+    systemctl enable mysite.service
+    
