@@ -10,7 +10,12 @@ date: "2018-08-08 16:59:05 +0800"
     sudo apt-get install libmysqlclient-dev
     pip3 install mysqlclient --user
 
-保证mysql访问正常。
+保证mysql访问正常。可创建数据库和用户，命令如下：
+
+    mysql> CREATE DATABASE IF NOT EXISTS mysite DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+    mysql> CREATE USER 'username'@'host' IDENTIFIED BY 'password';
+    mysql> grant all privileges on mq.* to test@localhost identified by '1234';
+    
 
 #### 修改django 数据库配置
 
