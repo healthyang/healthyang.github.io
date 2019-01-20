@@ -23,8 +23,10 @@ date: "2018-08-06 10:56:53 +0800"
 - [djangoproject][dp]
 - [自强学堂][zqxt]
 - [追梦人物博客DJANGO教程][zmrw]
+- [刘江的博客及教程][lj]
 
 [dp]:https://www.djangoproject.com
 [zqxt]:https://code.ziqiangxuetang.com/django/django-tutorial.html
 [zmrw]:https://www.zmrenwu.com/tutorials/
+[lj]:http://www.liujiangblog.com/course/django/2
 
