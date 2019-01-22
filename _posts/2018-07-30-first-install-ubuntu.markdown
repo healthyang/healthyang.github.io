@@ -11,11 +11,11 @@ categories: linux
     sudo apt-get install openssh-server
 
 #### 更新为国内源
-[清华源][qh]
-[阿里源][al]
+- [清华源][qh]
+- [阿里源][al]
 
-[qh]https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
-[al]https://opsx.alibaba.com/
+[qh]: https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
+[al]: https://opsx.alibaba.com/
 
 #### pip 离线安装方法
 
