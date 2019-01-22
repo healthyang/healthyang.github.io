@@ -3,7 +3,8 @@ layout: post
 title: "使用gunicorn部署DJANGO"
 date: "2018-12-08 21:45:29 +0800"
 ---
-####安装gunicorn
+
+#### 安装gunicorn
 
 在虚拟环境中安装：
 
@@ -16,7 +17,8 @@ http://www.gunicorn.org
 
     gunicorn --bind 0.0.0.0:8000 mysite.wsgi:application
 
-####自定义系统启动服务
+#### 自定义系统启动服务
+
 在/usr/lib/systemd/system/目录下创建mysite.service文件：
 
 ```
