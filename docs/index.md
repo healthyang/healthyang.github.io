@@ -1,9 +1,8 @@
 ---
 layout: home
-
 hero:
-  name: "AI 学习笔记"
-  text: "AI 应用学习知识分享"
+  name: 用AI学AI
+  text: 通过AI学习AI的相关知识和应用并分享
   tagline: 和 Hermes Agent 一起探索 AI 的无限可能
   actions:
     - theme: brand
@@ -12,7 +11,6 @@ hero:
     - theme: alt
       text: AI 实战案例
       link: /ai-apps/
-
 features:
   - icon: 🤖
     title: AI 助手实战
