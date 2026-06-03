@@ -1,13 +1,16 @@
 import { defineConfig } from 'vitepress'
+import { RssPlugin } from 'vitepress-plugin-rss'
 
 export default defineConfig({
   title: 'AI 学习笔记',
   description: 'AI 应用学习知识分享 - 和 Hermes Agent 一起探索 AI',
+  site: 'https://healthyang.github.io',
   
   lang: 'zh-CN',
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'AI 学习笔记 RSS', href: '/feed.rss' }],
   ],
 
   themeConfig: {
@@ -18,6 +21,7 @@ export default defineConfig({
       { text: '入门指南', link: '/guide/' },
       { text: 'AI 应用实战', link: '/ai-apps/' },
       { text: '学习日记', link: '/daily/' },
+      { text: 'RSS', link: '/feed.rss' },
     ],
 
     sidebar: {
@@ -87,5 +91,27 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇'
     }
-  }
+  },
+
+  // Vite 插件配置
+  vite: {
+    plugins: [
+      RssPlugin({
+        title: 'AI 学习笔记',
+        baseUrl: 'https://healthyang.github.io',
+        description: 'AI 应用学习知识分享 - 和 Hermes Agent 一起探索 AI',
+        items: [
+          { url: '/ai-apps/mcp-intro', content: true },
+          { url: '/ai-apps/mcp-server', content: true },
+          { url: '/ai-apps/hermes-intro', content: true },
+          { url: '/ai-apps/hermes-auto', content: true },
+          { url: '/ai-apps/searxng', content: true },
+          { url: '/ai-apps/dify', content: true },
+          { url: '/ai-apps/llm-local', content: true },
+          { url: '/guide/concepts', content: true },
+          { url: '/guide/setup', content: true },
+        ],
+      }),
+    ],
+  },
 })
