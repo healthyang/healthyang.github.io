@@ -19,6 +19,30 @@ AI 工作流自动化平台，支持 RAG、Agent、工作流编排。
 
 本地部署大语言模型，保护隐私，降低延迟。
 
+## MCP 协议
+
+### 📡 MCP 协议入门
+[查看详情](/ai-apps/mcp-intro)
+
+Model Context Protocol 全面解析 — 从问题到架构到实战。
+
+### 🔧 MCP Server 实战
+[查看详情](/ai-apps/mcp-server)
+
+从零写一个 MCP Fetch Server，掌握 MCP Server 开发全流程。
+
+## Hermes Agent
+
+### 🤖 Hermes Agent 入门
+[查看详情](/ai-apps/hermes-intro)
+
+开源 AI Agent 框架 Hermes 安装、配置与基本使用指南。
+
+### ⚡ Hermes 自动化实战
+[查看详情](/ai-apps/hermes-auto)
+
+定时任务、子代理、多平台协作 — 让 AI 真正自动化。
+
 ## 技术栈
 
 本系列实战使用的主要技术：
@@ -27,7 +51,9 @@ AI 工作流自动化平台，支持 RAG、Agent、工作流编排。
 - **搜索引擎**: SearXNG
 - **AI 平台**: Dify
 - **LLM 推理**: vLLM / llama.cpp
-- **开发工具**: Hermes Agent, VS Code
+- **AI 协议**: MCP (Model Context Protocol)
+- **Agent 框架**: Hermes Agent
+- **开发工具**: VS Code, Git
 
 ## 如何使用
 

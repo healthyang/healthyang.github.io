@@ -40,6 +40,20 @@ export default defineConfig({
             { text: 'Dify 工作流', link: '/ai-apps/dify' },
             { text: 'LLM 本地部署', link: '/ai-apps/llm-local' },
           ]
+        },
+        {
+          text: 'MCP 协议',
+          items: [
+            { text: 'MCP 协议入门', link: '/ai-apps/mcp-intro' },
+            { text: 'MCP Server 实战', link: '/ai-apps/mcp-server' },
+          ]
+        },
+        {
+          text: 'Hermes Agent',
+          items: [
+            { text: 'Hermes Agent 入门', link: '/ai-apps/hermes-intro' },
+            { text: 'Hermes 自动化实战', link: '/ai-apps/hermes-auto' },
+          ]
         }
       ],
       '/daily/': [
