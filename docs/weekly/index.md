@@ -19,9 +19,9 @@
 - 实践中的经验总结
 - 对未来的规划和思考
 
-如果你时间有限，看这里就够了一周精华，一篇搞定。
+如果你时间有限，看这里就够了——一周精华，一篇搞定。
 
-## 🔖 订阅
+## 🔗 相关链接
 
-- [RSS 订阅](/feed.rss) — 自动推送新内容
-- [GitHub](https://github.com/healthyang/healthyang.github.io) — 查看源码和提交历史
+- [GitHub 仓库](https://github.com/healthyang/healthyang.github.io) — 查看源码和提交历史
+- [RSS 订阅](https://healthyang.github.io/feed.rss) — 站点更新订阅（导航栏也有）
