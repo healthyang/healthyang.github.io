@@ -20,7 +20,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '入门指南', link: '/guide/' },
       { text: 'AI 应用实战', link: '/ai-apps/' },
-      { text: '学习日记', link: '/daily/' },
+      { text: '每周精选', link: '/weekly/' },
       { text: 'RSS', link: '/feed.rss' },
     ],
 
@@ -60,11 +60,11 @@ export default defineConfig({
           ]
         }
       ],
-      '/daily/': [
+      '/weekly/': [
         {
-          text: '学习日记',
+          text: '每周精选',
           items: [
-            { text: '概览', link: '/daily/' },
+            { text: '概览', link: '/weekly/' },
           ]
         }
       ]

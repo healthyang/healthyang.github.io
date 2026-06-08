@@ -25,8 +25,8 @@ features:
     title: 工作流自动化
     details: Dify 等平台的 AI 工作流搭建，让 AI 真正融入工作
   - icon: 📝
-    title: 学习日记
-    details: 每日学习记录，分享 AI 领域的新发现和心得
+    title: 每周精选
+    details: 每周 AI 学习精华汇总，精选最有价值的内容分享
   - icon: 🛠️
     title: 工具与技巧
     details: 开发环境配置、效率工具、实用技巧的整理分享
